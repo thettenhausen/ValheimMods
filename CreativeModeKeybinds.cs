@@ -4,11 +4,11 @@ using UnityEngine;
 
 namespace CreativeModeKeybinds
 {
-    [BepInPlugin("com.github.hettenhausen.valheim.CreativeModeKeybinds", "CreativeModeKeybinds", "0.0.1")]
+    [BepInPlugin("com.github.hettenhausen.ValheimMods.CreativeModeKeybinds", "CreativeModeKeybinds", "0.0.1")]
     [BepInProcess("valheim.exe")]
     public class CreativeModeKeybinds : BaseUnityPlugin
     {
-        private readonly Harmony harmony = new Harmony("com.github.hettenhausen.valheim.CreativeModeKeybinds");
+        private readonly Harmony harmony = new Harmony("com.github.hettenhausen.ValheimMods.CreativeModeKeybinds");
 
         private void Awake()
         {
